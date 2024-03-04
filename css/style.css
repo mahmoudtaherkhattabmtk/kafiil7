@@ -1735,3 +1735,8 @@ section,
         float: right;
     }
 }
+@media (min-resolution: 2dppx) {
+    .brand-title .logo {
+        width: 150px; /* Set the width of the image for high-resolution screens */
+    }
+}
