@@ -475,6 +475,13 @@ nav .navbar-links-2 ul li.notifications {
 }
 
 /*carousel*/
+.carousel-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .carousel {
     position: relative;
     max-width: 100%;
