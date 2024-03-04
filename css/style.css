@@ -338,6 +338,10 @@ body {
 }
 
 .dropdown-menu .toggle-theme-color li:last-of-type:active i.fa.fa-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
     position: relative;
     left: 14px;
 }
@@ -374,7 +378,10 @@ body {
 }
 
 .dropdown-menu .toggle-theme-color i.fa.fa-circle {
-    color: #FFF;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
     position: relative;
     left: 2px;
     cursor: pointer;
@@ -551,6 +558,7 @@ nav .navbar-links-2 ul li.notifications {
 /* Description */
 .description {
     padding-top: 20px;
+    min-height: 200px;
 }
 
 .description {
@@ -562,8 +570,8 @@ nav .navbar-links-2 ul li.notifications {
     line-height: 123%;
     letter-spacing: 0.005em;
     color: #333333;
-    padding: 15px 67px 15px 15px;
-    margin: 24px 0px 48px 0;
+    padding: 15px;
+    margin: 0;
 }
 
 /*service ads-ons*/
