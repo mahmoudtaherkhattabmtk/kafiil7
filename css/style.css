@@ -202,7 +202,10 @@ body {
     position: relative;
     top: 10px;
 }
-
+.brand-title .logo {
+    width: 150px;
+    height: auto; 
+}
 .navbar .navbar-links li {
     display: flex;
     flex-direction: column;
