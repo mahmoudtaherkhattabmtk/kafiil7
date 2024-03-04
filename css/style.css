@@ -636,8 +636,9 @@ nav .navbar-links-2 ul li.notifications {
 }
 
 .service-add-ons input::after {
-    content: "🗸";
+    content: "\2713";
     position: relative;
+    bottom: 1px;
     left: 3px;
     color: white;
 }
